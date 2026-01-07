@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log*
+.yarn-integrity
+
+# Build / output
+dist/
+build/
+coverage/
+
+# Environment files
+.env
+.env.local
+
+# IDEs / Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Misc
+*.class

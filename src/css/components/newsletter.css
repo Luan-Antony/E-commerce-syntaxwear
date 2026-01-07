@@ -1,0 +1,10 @@
+/* newsletter.css */
+.newsletter {
+  padding: 2rem;
+  background: #fff;
+  border: 1px solid #eee;
+}
+.newsletter form {
+  display: flex;
+  gap: .5rem;
+}

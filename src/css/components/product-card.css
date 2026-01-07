@@ -1,0 +1,12 @@
+/* product-card.css */
+.product-card {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  padding: .75rem;
+  display: flex;
+  flex-direction: column;
+}
+.product-card .price {
+  font-weight: 700;
+  color: var(--accent);
+}
