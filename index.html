@@ -4,50 +4,42 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Projeto</title>
+    <title>SyntaxWear</title>
+    <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/base.css" />
     <link rel="stylesheet" href="src/css/layout.css" />
-    <!-- Component styles: src/css/components/*.css -->
 </head>
 
 <body>
-        <a class="skip-link" href="#main">Pular para o conteúdo</a>
+    <header class="site-header" role="banner">
+        <div class="container">
+            <a href="/" class="logo" aria-label="SyntaxWear">SyntaxWear</a>
+            <nav class="site-nav" aria-label="Navegação principal">
+            </nav>
+        </div>
+    </header>
 
-        <header class="site-header" role="banner">
-            <div class="container">
-                <a href="/" class="logo" aria-label="SyntaxWear">SyntaxWear</a>
-                <nav class="site-nav" aria-label="Navegação principal">
-                    <!-- links de navegação -->
-                </nav>
+    <main id="main" role="main">
+        <section class="hero" id="hero" aria-label="Seção hero">
+        </section>
+
+        <section class="categories" id="categories" aria-label="Categorias de tênis">
+        </section>
+
+        <section class="featured-products" id="featured-products" aria-label="Produtos em destaque">
+            <div class="product-grid" role="list">
             </div>
-        </header>
+        </section>
+    </main>
 
-        <main id="main" role="main">
-            <section class="hero" id="hero" aria-label="Seção hero">
-                <!-- Conteúdo do hero (apenas estrutura) -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <section class="contact" aria-label="Informações de contato">
             </section>
-
-            <section class="categories" id="categories" aria-label="Categorias de tênis">
-                <!-- Lista de categorias de tênis -->
-            </section>
-
-            <section class="featured-products" id="featured-products" aria-label="Produtos em destaque">
-                <div class="product-grid" role="list">
-                    <!-- Grid de produtos em destaque -->
-                </div>
-            </section>
-        </main>
-
-        <footer class="site-footer" role="contentinfo">
-            <div class="container">
-                <section class="contact" aria-label="Informações de contato">
-                    <!-- Informações de contato -->
-                </section>
-                <nav class="footer-nav" aria-label="Links do rodapé">
-                    <!-- Links do rodapé -->
-                </nav>
-            </div>
-        </footer>
+            <nav class="footer-nav" aria-label="Links do rodapé">
+            </nav>
+        </div>
+    </footer>
 
 </body>
 
