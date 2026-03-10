@@ -4,7 +4,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description"
+    content="A SyntaxWear é uma loja de tênis e calçados que oferece uma ampla variedade de produtos para homens e mulheres. Com um compromisso com a qualidade, estilo e conforto, a SyntaxWear é o destino ideal para quem busca os melhores tênis do mercado. Explore nossa coleção e encontre o par perfeito para cada ocasião." />
+
   <title>SyntaxWear - Tênis e Calçados</title>
+
   <link rel="stylesheet" href="src/css/reset.css" />
   <link rel="stylesheet" href="src/css/variables.css" />
   <link rel="stylesheet" href="src/css/base.css" />
@@ -12,6 +16,7 @@
 
   <link rel="stylesheet" href="src/css/components/header.css" />
   <link rel="stylesheet" href="src/css/components/hero.css" />
+  <link rel="stylesheet" href="src/css/components/product-category.css" />
 </head>
 
 <body>
@@ -53,7 +58,7 @@
         <div class="hero-content">
           <span class="hero-subtitle">Krypton One</span>
           <h2 class="hero-title">Transforme qualquer passo em presença</h2>
-          
+
           <div class="hero-buttons">
             <a class="btn btn-outline" href="#">Ver modelos</a>
             <a class="btn btn-filled" href="#">Comprar</a>
@@ -62,7 +67,32 @@
       </div>
     </section>
 
-    <section class="categories" id="categories" aria-label="Categorias de tênis"></section>
+    <section class="categories-section" id="categories" aria-label="Categorias de tênis">
+      <div class="category-card casual">
+        <a href="#" class="category-link">
+          <span class="overlay"></span>
+          <span class="category-name btn btn-outline">Casual</span>
+        </a>
+      </div>
+      <div class="category-card esporte">
+        <a href="#" class="category-link">
+          <span class="overlay"></span>
+          <span class="category-name btn btn-outline">Esporte</span>
+        </a>
+      </div>
+      <div class="category-card moderno">
+        <a href="#" class="category-link">
+          <span class="overlay"></span>
+          <span class="category-name btn btn-outline">Moderno</span>
+        </a>
+      </div>
+      <div class="category-card futurista">
+        <a href="#" class="category-link">
+          <span class="overlay"></span>
+          <span class="category-name btn btn-outline">Futurista</span>
+        </a>
+      </div>
+    </section>
 
     <section class="featured-products" id="featured-products" aria-label="Produtos em destaque">
       <div class="product-grid" role="list"></div>
