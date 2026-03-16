@@ -1,6 +1,77 @@
-/* product-grid.css */
-.product-grid {
+.card {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+}
+
+.highlight {
+  grid-area: highlight;
+  background-image: url(../../images/products/card-highlight.jpg);
+  background-position: 10%;
+}
+
+.sneaker-purple {
+  grid-area: sneaker-purple;
+  background-image: url(../../images/products/roxo-grid.jpg);
+}
+
+.model {
+  grid-area: model;
+  background-image: url(../../images/products/modelo.jpg);
+}
+
+.sneaker-colorful {
+  grid-area: sneaker-colorful;
+  background-image: url(../../images/products/colorido-grid.jpg);
+}
+
+.sneaker-white {
+  grid-area: sneaker-white;
+  background-image: url(../../images/products/branco-grid.jpg);
+}
+
+.sneaker-gray {
+  grid-area: sneaker-gray;
+  background-image: url(../../images/products/cinza-grid.jpg);
+}
+
+.grid-section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 300px);
+  grid-template-areas:
+    "highlight highlight sneaker-purple sneaker-purple"
+    "highlight highlight model sneaker-colorful"
+    "sneaker-white sneaker-white model sneaker-gray";
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.top1-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-title {
+  color: #EDEDED;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.card-subtitle {
+  color: #EDEDED;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.cta-group {
+  display: flex;
+  gap: 10px;
 }
